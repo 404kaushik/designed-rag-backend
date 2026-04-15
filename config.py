@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     azure_ai_search_top_k: int = 10
 
     upload_session_ttl_seconds: int = 3600
-    cors_origins: str = "https://designedaiv2.netlify.app/"
+    cors_origins: str = "https://designedaiv2.netlify.app"
 
     model_config = SettingsConfigDict(
         env_file="ai_backend_v2/.env",
