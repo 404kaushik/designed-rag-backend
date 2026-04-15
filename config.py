@@ -5,7 +5,7 @@ class Settings(BaseSettings):
     aws_access_key_id: str
     aws_secret_access_key: str
     aws_region: str = "us-east-1"
-    bedrock_llm_model_id: str = "us.anthropic.claude-sonnet-4-20250514-v1:0"
+    bedrock_llm_model_id: str = "anthropic.claude-sonnet-4-20250514-v1:0"
 
     azure_ai_search_endpoint: str
     azure_ai_search_api_key: str
