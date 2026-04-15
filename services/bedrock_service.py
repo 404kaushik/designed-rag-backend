@@ -3,8 +3,8 @@ import json
 
 import boto3
 
-from ai_backend_v2.config import settings
-from ai_backend_v2.utils.logger import get_logger
+from config import settings
+from utils.logger import get_logger
 
 logger = get_logger(__name__)
 

@@ -1,10 +1,10 @@
 from __future__ import annotations
 
-from ai_backend_v2.models.schemas import ChatHistoryItem
-from ai_backend_v2.services.azure_search_service import azure_search_service
-from ai_backend_v2.services.bedrock_service import bedrock_service
-from ai_backend_v2.services.upload_session_service import UploadedArtifact
-from ai_backend_v2.utils.logger import get_logger
+from models.schemas import ChatHistoryItem
+from services.azure_search_service import azure_search_service
+from services.bedrock_service import bedrock_service
+from services.upload_session_service import UploadedArtifact
+from utils.logger import get_logger
 
 logger = get_logger(__name__)
 

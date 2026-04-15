@@ -9,9 +9,9 @@ from pathlib import Path
 from fastapi import UploadFile
 from PyPDF2 import PdfReader
 
-from ai_backend_v2.models.schemas import UploadedFileStatus
-from ai_backend_v2.services.upload_session_service import UploadedArtifact
-from ai_backend_v2.utils.logger import get_logger
+from models.schemas import UploadedFileStatus
+from services.upload_session_service import UploadedArtifact
+from utils.logger import get_logger
 
 logger = get_logger(__name__)
 

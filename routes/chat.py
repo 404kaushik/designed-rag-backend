@@ -1,10 +1,10 @@
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 
-from ai_backend_v2.models.schemas import ChatRequest, ChatResponse, UploadResponse
-from ai_backend_v2.services.file_parse_service import parse_uploads
-from ai_backend_v2.services.rag_service import process_chat
-from ai_backend_v2.services.upload_session_service import upload_session_store
-from ai_backend_v2.utils.logger import get_logger
+from models.schemas import ChatRequest, ChatResponse, UploadResponse
+from services.file_parse_service import parse_uploads
+from services.rag_service import process_chat
+from services.upload_session_service import upload_session_store
+from utils.logger import get_logger
 
 logger = get_logger(__name__)
 router = APIRouter()
