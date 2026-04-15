@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+boto3
+azure-search-documents
+python-dotenv
+pydantic
+pydantic-settings
+PyPDF2
+python-docx
+openpyxl
+python-pptx
+python-multipart
+requests
