@@ -6,8 +6,8 @@ from azure.core.exceptions import HttpResponseError
 from azure.search.documents import SearchClient
 from azure.search.documents.models import VectorizableTextQuery
 
-from ai_backend_v2.config import settings
-from ai_backend_v2.utils.logger import get_logger
+from config import settings
+from utils.logger import get_logger
 
 logger = get_logger(__name__)
 
